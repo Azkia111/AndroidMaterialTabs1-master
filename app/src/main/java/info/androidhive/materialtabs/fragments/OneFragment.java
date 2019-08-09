@@ -55,7 +55,7 @@ public class OneFragment extends Fragment {
                     sangka1 = Double.parseDouble(txtangka1.getText().toString());
                     sangka2 = Double.parseDouble(txtangka2.getText().toString());
                     hasill = sangka1 + sangka2;
-                    txthasil.setText("Hasil dari " + sangka1 + "+" + sangka2 + "=" + hasill);
+                    txthasil.setText(Double.toString(hasill));
 
 
                 }
@@ -75,7 +75,7 @@ public class OneFragment extends Fragment {
                     sangka1 = Double.parseDouble(txtangka1.getText().toString());
                     sangka2 = Double.parseDouble(txtangka2.getText().toString());
                     hasill = sangka1 - sangka2;
-                    txthasil.setText("Hasil dari " + sangka1 + "+" + sangka2 + "=" + hasill);
+                    txthasil.setText(Double.toString(hasill));
 
 
                 }
@@ -94,7 +94,7 @@ public class OneFragment extends Fragment {
                     sangka1 = Double.parseDouble(txtangka1.getText().toString());
                     sangka2 = Double.parseDouble(txtangka2.getText().toString());
                     hasill = sangka1 * sangka2;
-                    txthasil.setText("Hasil dari " + sangka1 + "+" + sangka2 + "=" + hasill);
+                    txthasil.setText(Double.toString(hasill));
 
 
                 }
@@ -115,7 +115,7 @@ public class OneFragment extends Fragment {
                     sangka1 = Double.parseDouble(txtangka1.getText().toString());
                     sangka2 = Double.parseDouble(txtangka2.getText().toString());
                     hasill = sangka1 / sangka2;
-                    txthasil.setText("Hasil dari " + sangka1 + "+" + sangka2 + "=" + hasill);
+                    txthasil.setText(Double.toString(hasill));
 
 
                 }
